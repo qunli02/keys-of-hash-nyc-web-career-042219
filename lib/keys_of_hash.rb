@@ -18,6 +18,6 @@ class Hash
       value2.delete_at(value2.index(arguments2))
     end
     print name2
-    return name
+    return name + name2
   end
 end
