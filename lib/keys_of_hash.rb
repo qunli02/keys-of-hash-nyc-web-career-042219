@@ -17,7 +17,7 @@ class Hash
       key2.delete_at(value2.index(arguments2))
       value2.delete_at(value2.index(arguments2))
     end
-    print name 2
+    print name2
     return name
   end
 end
