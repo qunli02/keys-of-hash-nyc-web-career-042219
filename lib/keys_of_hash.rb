@@ -8,7 +8,7 @@ class Hash
       name << key[value.index(arguments)]
       print name
       key.delete_at(value.index(arguments))
-      name.delete_at(value.index(arguments))
+      value.delete_at(value.index(arguments))
     end
     return name
   end
