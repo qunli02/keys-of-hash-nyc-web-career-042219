@@ -6,7 +6,6 @@ class Hash
     value = self.values
     until value.index(arguments) == nil
       name << key[value.index(arguments)]
-      print name
       key.delete_at(value.index(arguments))
       value.delete_at(value.index(arguments))
     end
